@@ -1,3 +1,4 @@
+// ignore_for_file: prefer_const_constructors
 import 'package:flutter/material.dart';
 
 class Background extends StatelessWidget {
@@ -11,8 +12,7 @@ class Background extends StatelessWidget {
       width: double.infinity,
       height: double.infinity,
       decoration: BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage('assets/background.png'), // Replace with your image path
+        image: DecorationImage( image: AssetImage('assets/background.png'), // Replace with your image path
           fit: BoxFit.cover,
         ),
       ),
